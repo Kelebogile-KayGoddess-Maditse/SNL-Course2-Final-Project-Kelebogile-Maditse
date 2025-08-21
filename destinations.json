@@ -1,0 +1,33 @@
+[
+{
+"name": "Maldives",
+"country": "Maldives",
+"image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+"description": "Experience pristine beaches, crystal clear waters, and luxury overwater bungalows."
+},
+{
+"name": "Bali",
+"country": "Indonesia",
+"image": "https://images.unsplash.com/photo-1519824145371-296894a0daa9",
+"description": "Discover lush rice terraces, cultural temples, and tropical adventures in Bali."
+},
+{
+"name": "Santorini",
+"country": "Greece",
+"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+"description": "Famous for stunning sunsets, whitewashed buildings, and romantic escapes."
+},
+{
+"name": "Paris",
+"country": "France",
+"image": "https://images.unsplash.com/photo-1522098543979-ffc7f79ad6f5",
+"description": "The city of love, art, and gourmet cuisine, perfect for a sophisticated getaway."
+},
+{
+"name": "Tokyo",
+"country": "Japan",
+"image": "https://images.unsplash.com/photo-1568643603411-23f4d9d2ff26",
+"description": "A blend of ultra-modern and traditional culture, from skyscrapers to ancient temples."
+}
+]
+

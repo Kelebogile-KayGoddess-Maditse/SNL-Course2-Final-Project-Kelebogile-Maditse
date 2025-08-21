@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoddessTravels</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+<div class="logo" onclick="navigate('index.html')">✈️ <span>GoddessTravels</span></div>
+<ul>
+<li onclick="navigate('index.html')">Home</li>
+<li onclick="navigate('about.html')">About Us</li>
+<li onclick="navigate('contact.html')">Contact Us</li>
+</ul>
+<div class="search-container">
+<input type="text" id="searchInput" placeholder="Search destination...">
+<button onclick="searchDestinations()">Search</button>
+<button onclick="clearSearch()">Clear</button>
+</div>
+</nav>
+
+<!-- Social Icons -->
+<div class="social-icons">
+<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+<a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+<a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+</div>
+
+<!-- Hero Section -->
+<section class="hero">
+<h1>Luxury Affordable Traveling at your finger tips</h1>
+<p>Get to your dream destination at an affordable price, experience affordable luxury.</p>
+<button onclick="openModal()">Book Now</button>
+</section>
+
+<!-- Destinations -->
+<section class="destinations" id="destinations"></section>
+
+<!-- Modal -->
+<div class="modal" id="bookingModal">
+<div class="modal-content">
+<h2>Book Your Trip</h2>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<button onclick="closeModal()">Submit</button>
+</div>
+</div>
+
+<footer>© 2025 GoddessTravels | Designed with 💙</footer>
+
+<script src="script.js"></script>
+<script>loadDestinations();</script>
+</body>
+</html>
